@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,700&display=swap&subset=latin-ext");
+
+/* Fonts */
+
+p,
+a,
+ul,
+ol,
+li {
+   font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Montserrat", sans-serif;
+}
+
+/* Links */
+
+a,
+.btn {
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+a {
+   color: #3498db;
+}
+a:hover {
+   text-decoration: none;
+   color: #2980b9;
+}
+
+.social-text a {
+   color: #898d99;
+}
+
+.social-text a:hover {
+   color: #989caa;
+}
+
+/* Colors */
+
+.text-bluewood {
+   color: #2c3e50;
+}
+
+.text-fiord {
+   color: #3b536b;
+}
+
+.text-porcelain {
+   color: #ecf0f1;
+}
+
+.text-manatee {
+   color: #898d99;
+}
+
+.text-slategray {
+   color: #718096;
+}
+
+.text-cinnabar {
+   color: #e74c3c;
+}
+
+.text-wordpress {
+   color: #21759b;
+}
+
+.text-react {
+   color: #61dafb;
+}
+
+.text-bootstrap {
+   color: #563f7a;
+}
+
+.text-npm {
+   color: #c33839;
+}
+
+.bg-bluewood {
+   background-color: #2c3e50;
+}
+
+.bg-porcelain {
+   background-color: #ecf0f1;
+}
+
+.bg-cinnabar {
+   background-color: #e74c3c;
+}
+
+.bg-riverbed {
+   background-color: #4a5568;
+}
+
+.bg-mirage {
+   background-color: #1d2a36;
+}
+
+.bg-slategray {
+   background-color: #718096;
+}
+
+/* Buttons */
+
+button:focus {
+   outline: none;
+}
+
+.btn {
+   background-color: #e74c3c;
+}
+
+.btn:hover {
+   background-color: #cf4536;
+   color: #ecf0f1;
+}
+
+/* Custom utility */
+
+.border-btm {
+   border-bottom: 2px dotted #2c3e50;
+}
+
+/* Nav */
+
+.navbar-brand {
+   font-family: "Montserrat", sans-serif;
+   font-size: 1.75rem;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+.navbar .active {
+   color: #ecf0f1;
+}
+
+.navbar {
+   transition: 0.3s ease;
+}
+
+/* Nav toggle menu icon */
+
+.nav-icon {
+   display: inline-block;
+   cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+   width: 35px;
+   height: 5px;
+   background-color: #ecf0f1;
+   margin: 6px 0;
+   transition: 0.4s;
+}
+
+.change .bar1 {
+   -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+   transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.change .bar2 {
+   opacity: 0;
+}
+
+.change .bar3 {
+   -webkit-transform: rotate(45deg) translate(-8px, -8px);
+   transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Masthead */
+
+.bg-masthead {
+   height: 100vh;
+   background: url("../assets/bg-ziga-zuzek-ireland-skellig-islands.jpg") top center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.main-title {
+   font-size: 3.5rem;
+}
+
+.main-subtitle {
+   font-size: 1.125rem;
+}
+
+.bg-social {
+   background-color: rgba(44, 62, 80, 0.8);
+}
+
+.masthead-social-text {
+   font-size: 2.5rem;
+}
+
+/* About me section */
+
+.fa-ul > li {
+   margin-bottom: 1rem;
+}
+
+.interest {
+   border-radius: 50%;
+   width: 134px;
+   height: 134px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.interest i {
+   font-size: 3.75rem;
+}
+
+/* Skills section */
+
+#skills .progress {
+   background-color: #fadbd8;
+}
+
+#languages .progress {
+   background-color: #d5d8dc;
+}
+
+.progress-bar {
+   width: 0;
+}
+
+.technology {
+   font-size: 5.5rem;
+}
+
+/* Experience section */
+
+.company-img {
+   min-width: 40px;
+}
+
+.list {
+   margin-left: 0px;
+   padding-left: 20px;
+}
+
+/* Portfolio section */
+
+.text-crop {
+   -webkit-line-clamp: 3;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+}
+
+.card-img-top {
+   height: 12rem;
+   object-fit: cover;
+   object-position: 50% 50%;
+}
+.card-img-wrapper {
+   overflow: hidden;
+   border-top-left-radius: calc(0.5rem - 1px);
+   border-top-right-radius: calc(0.5rem - 1px);
+}
+.card {
+   transition: opacity 0.5s;
+   width: 100%;
+   border-bottom-left-radius: calc(0.5rem - 1px);
+   border-bottom-right-radius: calc(0.5rem - 1px);
+}
+.card:hover {
+   opacity: 0.8;
+   transition: opacity 0.5s;
+}
+
+/* Portfolio project */
+
+.owl-theme .owl-nav {
+   margin-top: 10px;
+   text-align: center;
+   -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+   color: #fff;
+   font-size: 14px;
+   margin: 5px;
+   padding: 4px 7px;
+   background: #d6d6d6;
+   display: inline-block;
+   cursor: pointer;
+   border-radius: 3px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+   background: #869791;
+   color: #fff;
+   text-decoration: none;
+}
+.owl-theme .owl-nav .disabled {
+   opacity: 0.5;
+   cursor: default;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+   margin-top: 10px;
+}
+
+.owl-theme .owl-dots {
+   text-align: center;
+   -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-dots .owl-dot {
+   display: inline-block;
+   zoom: 1;
+   *display: inline;
+}
+.owl-theme .owl-dots .owl-dot span {
+   width: 10px;
+   height: 10px;
+   margin: 5px 7px;
+   background: #d6d6d6;
+   display: block;
+   backface-visibility: visible;
+   -webkit-backface-visibility: visible;
+   transition: opacity 200ms ease;
+   border-radius: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+   background: #869791;
+}
+
+/* Contact */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+   transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-group {
+   margin-bottom: 1.5rem;
+}
+
+.form-control {
+   color: #898d99;
+}
+
+/* Footer */
+
+.footer-social-text {
+   font-size: 1.7rem;
+}
+
+/* Media queries */
+
+@media (min-width: 992px) {
+   /* Nav */
+   .nav-link {
+      position: relative;
+   }
+   .nav-link:after,
+   .nav-link .active:after {
+      content: "";
+      position: absolute;
+      height: 3px;
+      background-color: #ecf0f1;
+      width: 0;
+      left: 50%;
+      bottom: 0;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      -webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+      transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+   }
+   .nav-link:hover:after,
+   .navbar .active::after {
+      width: 90%;
+   }
+}
+
+@media (max-width: 575.98px) {
+   /* Masthead */
+   .bg-masthead {
+      background: url("../assets/bg-ziga-zuzek-ireland-skellig-islands-mobile.jpg") top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
+   .main-title {
+      font-size: 2rem;
+   }
+}
+
+@media (max-width: 320px) {
+   /* Masthead */
+   .main-title {
+      font-size: 1.8rem;
+   }
+   .main-subtitle {
+      font-size: 1rem;
+   }
+}
